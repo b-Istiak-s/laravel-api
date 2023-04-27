@@ -30,4 +30,14 @@ class ApiFilter{
         }
         return $eloQuery;
     }
+
+    //without operator
+    // public function transform(Request $request)
+    // {
+    //     $filters = [];
+    //     foreach ($request->query() as $key => $value) {
+    //         $filters[] = [$key, '=', $value]; 
+    //     }
+    //     return $filters;
+    // }
 }
