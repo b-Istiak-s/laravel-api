@@ -30,7 +30,12 @@ class ApiFilter{
         }
         return $eloQuery;
     }
+<<<<<<< HEAD
 
+=======
+    
+    
+>>>>>>> 243e10ffe6345e88d54ad8095a407ae98d2858e9
     //without operator
     // public function transform(Request $request)
     // {

@@ -64,3 +64,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Command lines
+
+To create new project :
+```
+laravel new project_name
+```
+To create a model file with all configurations (such as database, fake data, etc) :
+```
+php artisan make:model ModeName --all
+```
+
+To migrate database with fake data :
+```
+php artisan migrate:fresh --seed
+```
+
+Just remove the `--seed` if it's for production.
